@@ -1,50 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
 
-  30-day, hassle-free money back guarantee
+  <body>
+    <div class="container-fluid shadow-lg rounded">
+      <div class="intro-box">
+        <h3>Join our community</h3>
+        <h4 class="subtitle">30-day, hassle-free money back guarantee</h4>
+        <p class="main-text">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+      <div class="row">
+        <div class="feature-box1 col-xl-6">
+          <h4>Monthly Subscription</h4>
+          <p class="price">
+            &dollar;29
+            <span style="font-weight: 100; font-size: 1rem" ;>per month</span>
+          </p>
+          <p>Full access for less than &dollar;1 a day</p>
+          <input class="btn btn-lg btn-block" type="button" value="Sign Up" />
+        </div>
 
-  Monthly Subscription
+        <div class="feature-box2 col-xl-6">
+          <h4>Why Us</h4>
+          <dl>
+            <dt>Tutorials by industry experts</dt>
+            <dt>Peer &amp; expert code review</dt>
+            <dt>Coding exercises</dt>
+            <dt>Access to our GitHub repos</dt>
+            <dt>Community forum</dt>
+            <dt>Flashcard decks</dt>
+            <dt>New videos every week</dt>
+          </dl>
+        </div>
+      </div>
+    </div>
 
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Laurie 🙋‍♀️</a>.
+      </p>
+    </footer>
+  </body>
 </html>

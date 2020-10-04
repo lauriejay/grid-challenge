@@ -25,7 +25,8 @@ dt {
     width: 50%;
     margin: 100px auto 50px auto;
     padding: 0rem;
-    /* border-radius: not working ; */
+    border-radius: 2%;
+    overflow: hidden;
 }
 
 /* First block */
@@ -97,4 +98,10 @@ dt {
     font-size: 11px; 
     text-align: center;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 625px) {
+    .container-fluid {
+        width: 80%;
+    }
 }
